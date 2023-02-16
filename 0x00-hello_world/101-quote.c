@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - A program that print without pritg and put function
  * Description: Prints "and that piece of art is useful.." without puts
  * Return: 1 (success)
  */
- int main(void)
-{ 
+int main(void)
+{	
 char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 long l = 59;
 long fd = 1;
