@@ -8,7 +8,7 @@
 int main(void)
 {
 int b = '0';
-while (b >= 9)
+while (b <= '9')
 {
 putchar(b);
 b++;
@@ -16,3 +16,4 @@ b++;
 putchar('\n');
 return (0);
 }
+
