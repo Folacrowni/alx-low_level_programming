@@ -1,23 +1,18 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _puts - prints a string to stdout
+ * @str: pointer to the string to print
  */
 
 void _puts(char *str)
-
 {
-	int i = 0;
-	while (str[i])
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		putchar(str[i]);
-		i++;
+		_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
+
