@@ -1,6 +1,7 @@
 What's my name
 mandatory
 Write a function that prints a name.
+Prototype: void print_name(char *name, void (*f)(char *));
 
  If you spend too much time thinking about a thing, you'll never get it done
 mandatory
@@ -86,4 +87,4 @@ You are not allowed to code any other function than main in this file
 You are not allowed to directly call op_add, op_sub, op_mul, op_div or op_mod from the main function
 You have to use atoi to convert arguments to int
 You are not allowed to use any kind of loop
-You are allowed to use a maximum of 3 if statement
+You are allowed to use a maximum of 3 if statements
